@@ -1,0 +1,22 @@
+/* Global Styles */
+@layer base {
+  body {
+    font-family: 'Kanit', sans-serif;
+  }
+}
+
+/* Custom scrollbar for sidebar and modals */
+.sidebar-scroll::-webkit-scrollbar,
+.no-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.sidebar-scroll::-webkit-scrollbar-track,
+.no-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb,
+.no-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #e7f3eb;
+  border-radius: 20px;
+}
