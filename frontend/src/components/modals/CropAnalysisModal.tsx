@@ -1,7 +1,7 @@
 // src/components/CropAnalysisModal.tsx
 import React, { useState, useEffect } from 'react';
-import { useLanguage } from '../contexts/LanguageContext';
-import { CropAnalysisResult, Farm } from '../types'; // Import Farm Type
+import { useLanguage } from '../../contexts/LanguageContext';
+import { CropAnalysisResult, Farm } from '../../types'; // Import Farm Type
 
 interface CropAnalysisModalProps {
   isOpen: boolean;

@@ -1,11 +1,11 @@
 // src/App.tsx
 import React from 'react';
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
-import Dashboard from './components/Dashboard';
-import FarmList from './components/FarmList';
-import LoginPage from './components/LoginPage';
-import AdminPanel from './components/AdminPanel'; // Import ใหม่
+import Sidebar from './components/layout/Sidebar';
+import Header from './components/layout/Header';
+import Dashboard from './pages/Dashboard';
+import FarmList from './pages/FarmList';
+import LoginPage from './pages/LoginPage';
+import AdminPanel from './pages/AdminPanel';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { NavigationProvider, useNavigation } from './contexts/NavigationContext';
 import { FarmProvider } from './contexts/FarmContext';

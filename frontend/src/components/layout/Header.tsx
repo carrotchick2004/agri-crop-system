@@ -1,7 +1,7 @@
 import React from 'react';
-import { useLanguage } from '../contexts/LanguageContext';
-import { useNavigation } from '../contexts/NavigationContext';
-import { useFarms } from '../contexts/FarmContext';
+import { useLanguage } from '../../contexts/LanguageContext';
+import { useNavigation } from '../../contexts/NavigationContext';
+import { useFarms } from '../../contexts/FarmContext';
 
 const Header: React.FC = () => {
   const { t, language, setLanguage } = useLanguage();

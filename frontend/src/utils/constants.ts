@@ -1,5 +1,5 @@
 // src/constants.ts
-import { StatMetric, SoilNutrient, CropRecommendation, WeatherDay, FarmTemplate, PlantDisease } from './types';
+import { StatMetric, SoilNutrient, CropRecommendation, WeatherDay, FarmTemplate, PlantDisease } from '../types';
 import { Language } from './translations';
 
 // ... (FarmTemplate เดิมเก็บไว้) ...

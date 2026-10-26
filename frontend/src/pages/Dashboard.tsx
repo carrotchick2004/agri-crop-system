@@ -4,8 +4,8 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { useNavigation } from '../contexts/NavigationContext';
 import { useFarms } from '../contexts/FarmContext';
 import { useAuth } from '../contexts/AuthContext';
-import StatsCard from './StatsCard';
-import CropAnalysisModal from './CropAnalysisModal';
+import StatsCard from '../components/ui/StatsCard';
+import CropAnalysisModal from '../components/modals/CropAnalysisModal';
 import { StatMetric, EnvData, AIModelInfo } from '../types';
 
 // --- Sub-component: EditEnvModal ---

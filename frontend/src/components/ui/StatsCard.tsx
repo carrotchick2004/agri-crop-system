@@ -1,5 +1,5 @@
 import React from 'react';
-import { StatMetric } from '../types';
+import { StatMetric } from '../../types';
 
 interface StatsCardProps {
   metric: StatMetric;
