@@ -1,0 +1,5 @@
+{
+  "name": "AgriCorp Dashboard",
+  "description": "A comprehensive agricultural management dashboard for monitoring farm health, soil composition, and crop recommendations.",
+  "requestFramePermissions": []
+}
