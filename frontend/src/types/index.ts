@@ -108,3 +108,23 @@ export interface WeatherDay {
     condition: string;
     colorClass: string;
 }
+
+export interface SoilNutrient {
+  name: string;
+  symbol: string;
+  value: number;
+  status: string;
+  statusLabel: string;
+  colorClass: string;
+}
+
+export interface CropRecommendation {
+  name: string;
+  imageIcon: string;
+  matchScore: number;
+  description: string;
+  yield: string;
+  cycle: string;
+  status: string;
+  tags?: { label: string; value: string }[];
+}
